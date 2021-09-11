@@ -1,0 +1,125 @@
+*{
+  padding:0;
+  margin:0;
+  
+}
+
+header{
+  background-color:rgb(156, 219, 248);
+  
+}
+
+.header-left{
+  padding:20px;
+  font-family: fantasy;
+  font-size:10px;
+}
+.header-center{
+  text-align:right;
+}
+
+.icon{
+  padding:10px 40px 10px 0;
+  font-size:30px;
+  margin:0 0 0 auto;
+  color:blue;
+}
+.container{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+.strong{
+  /* color:rgb(189, 186, 2); */
+  color:rgb(91, 112, 4);
+  font-weight: bold;
+}
+.main-title{
+  padding-top:30px;
+  font-family: fantasy;
+  text-align:center;
+}
+body{
+  background-color:rgb(234, 250, 253);
+}
+
+h2{
+  color:rgb(56, 131, 118);
+  font-weight:normal;
+  font-size:30px;
+}
+
+p{
+  color: rgb(113, 141, 2);
+  font-size:23px;
+  
+}
+
+.mokuzi a{
+  color:rgb(63, 77, 5);
+  font-size:20px;
+}
+
+.main p{
+  padding:10px 0 20px 30px;
+}
+
+.alrt{
+  font-size:18px;
+}
+
+.mokuzi{
+  padding-top:50px;
+  padding-bottom:30px;
+  
+}
+
+.introduction{
+  padding-top:40px;
+  display:flex;
+  border:2px solid black;
+  border-radius: 30px;
+}
+.introimage{
+  width:30%;
+  text-align:center;
+  vertical-align: center;
+}
+
+
+.introtext p{
+  padding:10px;
+}
+
+@media (max-width: 1200px){
+  .introimage{
+    width:60%;
+  }
+}
+
+.introduction img{
+  border-radius: 50%;
+  width:70%;
+  
+}
+.introduction p{
+  padding-top:20px;
+}
+
+.main img{
+  width:80%;
+  padding:20px 0 50px 40px;
+}
+
+
+
+.approad,.right{
+  text-align:right;
+
+}
+footer{
+  padding-top:100px;
+  padding-bottom:100px;
+  
+}
